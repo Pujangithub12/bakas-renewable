@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;700&display=swap");
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand-50: #f2f9ed;
+  --color-brand-100: #e2f2d6;
+  --color-brand-200: #c6e6af;
+  --color-brand-300: #a1d47e;
+  --color-brand-400: #7dbd53;
+  --color-brand-500: #5da331;
+  --color-brand-600: #468124;
+  --color-brand-700: #37641f;
+  --color-brand-800: #2d4f1d;
+  --color-brand-900: #26421c;
+  --color-brand-950: #11250c;
+
+  --color-cream-50: #fbfaf4;
+  --color-cream-100: #f5f2e6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-cream-50);
+  color: var(--color-brand-950);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}
+
+.bg-grain {
+  background-image: radial-gradient(circle at 1px 1px, rgba(17, 37, 12, 0.08) 1px, transparent 0);
+  background-size: 18px 18px;
+}
