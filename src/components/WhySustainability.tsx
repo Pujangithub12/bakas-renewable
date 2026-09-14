@@ -7,7 +7,7 @@ import baggedPelletsImg from "../assets/images/bagged-pellets.jpeg";
 
 export default function WhySustainability() {
   return (
-    <section id="why-us" className="bg-white py-20 lg:py-28">
+    <section id="why-us" className="bg-white pb-20 pt-8 lg:pb-28 lg:pt-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="mx-auto max-w-2xl text-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-brand-200 bg-brand-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-wide text-brand-700">

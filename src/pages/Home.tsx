@@ -15,7 +15,7 @@ const TEASERS = [
     icon: FlameIcon,
     title: "Our Products",
     description: "Pellets engineered for commercial, industrial and household use.",
-    to: "/products",
+    to: "/products/biomass-pellet",
   },
   {
     icon: FactoryIcon,

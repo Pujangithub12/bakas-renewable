@@ -31,9 +31,9 @@ const STEPS = [
   },
   {
     number: "04",
-    title: "Pelletization",
+    title: "Briquetting",
     description:
-      "The dried wood chips are processed through pelletization using an Andritz European machine. This PLC-automated machine hammers the wood into dust, pelletizes the raw material, cools the formed pellets, and then sends them to the packaging chamber.",
+      "The dried wood chips are processed through briquetting using an Andritz European machine. This PLC-automated machine hammers the wood into dust, forms it into briquettes, cools the finished product, and then sends it to the packaging chamber.",
     image: pelletizing,
     alt: "Pellet press machine",
   },
@@ -49,7 +49,7 @@ const STEPS = [
 
 export default function Process() {
   return (
-    <section id="process" className="bg-white py-20 lg:py-28">
+    <section id="process" className="bg-white pb-20 pt-8 lg:pb-28 lg:pt-10">
       <div className="mx-auto max-w-6xl px-6 lg:px-10">
         <div className="mx-auto max-w-2xl text-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-brand-200 bg-brand-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-wide text-brand-700">

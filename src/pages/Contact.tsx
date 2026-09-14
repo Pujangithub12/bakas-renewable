@@ -4,7 +4,7 @@ import { CheckIcon, FlameIcon, LeafIcon, TruckIcon } from "../components/icons";
 
 const INFO = [
   { icon: LeafIcon, label: "Email", value: "bakas.nepal@gmail.com" },
-  { icon: FlameIcon, label: "Phone", value: "   " },
+  { icon: FlameIcon, label: "Phone", value: "+977 9743926775" },
   {
     icon: TruckIcon,
     label: "Office",

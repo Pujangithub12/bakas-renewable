@@ -13,10 +13,8 @@ const COLUMNS = [
   {
     title: "Products",
     links: [
-      { label: "Industrial Fuel", to: "/products" },
-      { label: "Commercial Pellets", to: "/products" },
-      { label: "Household Heating", to: "/products" },
-      { label: "Bulk Supply", to: "/products" },
+      { label: "Biomass Pellet", to: "/products/biomass-pellet" },
+      { label: "Biomass Briquette", to: "/products/biomass-briquette" },
     ],
   },
   {
@@ -25,6 +23,7 @@ const COLUMNS = [
       { label: "Sustainability", to: "/why-us" },
       { label: "Process", to: "/process" },
       { label: "Gallery", to: "/gallery" },
+      { label: "FAQs", to: "/faqs" },
     ],
   },
 ];

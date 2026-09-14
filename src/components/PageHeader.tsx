@@ -6,15 +6,15 @@ type PageHeaderProps = {
 
 export default function PageHeader({ eyebrow, title, description }: PageHeaderProps) {
   return (
-    <section className="bg-brand-950 px-6 py-16 text-center lg:px-10 lg:py-20">
-      <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wide text-brand-100">
+    <section className="bg-white px-6 pb-8 pt-8 text-center lg:px-10 lg:pt-10">
+      <span className="inline-flex items-center gap-2 rounded-full border border-brand-200 bg-brand-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-wide text-brand-700">
         {eyebrow}
       </span>
-      <h1 className="mx-auto mt-5 max-w-2xl font-display text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
+      <h1 className="mx-auto mt-5 max-w-2xl font-display text-4xl font-extrabold tracking-tight text-brand-950 sm:text-5xl">
         {title}
       </h1>
       {description && (
-        <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-brand-100/75 sm:text-base">
+        <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-brand-800/75 sm:text-base">
           {description}
         </p>
       )}
