@@ -1,21 +1,24 @@
 import collection from "../assets/images/1.jpeg";
 import chipping from "../assets/images/2.jpeg";
-import drying from "../assets/images/factory2.jpeg";
+import drying from "../assets/images/drying-process.jfif";
+import hammering from "../assets/images/industry.png";
 import pelletizing from "../assets/images/roller.png";
-import bagging from "../assets/images/inf.jpg";
+import pelletOutput from "../assets/images/Pellet-machine.jpeg";
+import cooling from "../assets/images/pellets.jpeg";
+import bagging from "../assets/images/Packaging.jpeg";
 
 const STEPS = [
   {
     number: "01",
-    title: "Collection of Wood",
+    title: "Collection of Forest Residue",
     description:
-      "Transforming forest floor waste alongside discarded materials from the plywood and furniture industries into the essential raw materials for wood pellet production.",
+      "We collect forest residue, ply waste, saw dust, and soft woods from across the region, sourcing material that would otherwise be burned or left to rot. This waste becomes the essential raw material for wood pellet production, giving it a second life as clean, renewable fuel.",
     image: collection,
     alt: "Tractor collecting forest floor biomass waste",
   },
   {
     number: "02",
-    title: "Chipping of Wood",
+    title: "Chipping",
     description:
       "The collected wood waste and forest floor debris are chipped into small pieces, ready for the next process to reduce moisture.",
     image: chipping,
@@ -23,7 +26,7 @@ const STEPS = [
   },
   {
     number: "03",
-    title: "Rotary Screen",
+    title: "Rotary Drying",
     description:
       "The chipped biomass is dried in the RFD dryer, which includes both rotary and flash drying processes to accommodate sawdust as well as wood chips.",
     image: drying,
@@ -31,19 +34,43 @@ const STEPS = [
   },
   {
     number: "04",
+    title: "Hammering Mill",
+    description:
+      "The dried chips are fed into the hammer mill, where they are beaten continuously by high-speed hammers until they break down into a fine, consistent dust ready for briquetting.",
+    image: hammering,
+    alt: "Hammer mill machinery inside the plant",
+  },
+  {
+    number: "05",
     title: "Briquetting",
     description:
-      "The dried wood chips are processed through briquetting using an Andritz European machine. This PLC-automated machine hammers the wood into dust, forms it into briquettes, cools the finished product, and then sends it to the packaging chamber.",
+      "The dried wood chips are processed through briquetting. This automated machine hammers the wood into dust, forms it into briquettes, cools the finished product, and then sends it to the packaging chamber.",
     image: pelletizing,
     alt: "Pellet press machine",
   },
   {
-    number: "05",
-    title: "Baggage of Pellets",
+    number: "06",
+    title: "Pelletization",
+    description:
+      "The even finer dust left over from the process is used to create pellets, pressed and formed to a diameter of roughly 6 mm to 8 mm.",
+    image: pelletOutput,
+    alt: "Andritz pellet mill machine",
+  },
+  {
+    number: "07",
+    title: "Cooling and Storage",
+    description:
+      "Freshly formed pellets are cooled down to room temperature and moved into dry storage, ready for the final sieving and packaging steps.",
+    image: cooling,
+    alt: "Pile of finished biomass fuel in storage",
+  },
+  {
+    number: "08",
+    title: "Packaging of Pellets",
     description:
       "The pellets are sieved into the required sizes and then packaged using a semi-automatic machine, with package weights varying according to the requirement: 25 kg, 30 kg, 50 kg, and even 1 ton.",
     image: bagging,
-    alt: "Bakas premium biomass pellet packaging",
+    alt: "Pallets of packaged Bakas fuel stacked at the plant",
   },
 ];
 

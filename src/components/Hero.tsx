@@ -89,22 +89,6 @@ export default function Hero() {
             Break Free From High Fuel &amp; Energy Costs
           </p>
         </div>
-
-        <div className="absolute bottom-6 right-6 flex items-center gap-3 rounded-2xl bg-white/15 p-4 backdrop-blur-md sm:bottom-8 sm:right-8">
-          <div className="flex -space-x-3">
-            {["#7dbd53", "#5da331", "#e2f2d6"].map((color) => (
-              <span
-                key={color}
-                className="h-8 w-8 rounded-full border-2 border-white/70"
-                style={{ backgroundColor: color }}
-              />
-            ))}
-          </div>
-          <div>
-            <p className="text-xs font-medium text-white/75">Trusted Partners</p>
-            <p className="font-display text-lg font-extrabold text-white">10+ Businesses</p>
-          </div>
-        </div>
       </div>
     </section>
   );
