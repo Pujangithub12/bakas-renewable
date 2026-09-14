@@ -68,7 +68,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-sm leading-relaxed text-brand-50/85 sm:text-base">
-            Climate change isn&apos;t coming &mdash; it&apos;s here. Bakas Renewable
+            Climate change isn&apos;t coming. It&apos;s here. Bakas Renewable
             Energy produces premium biomass pellets that replace fossil
             fuels in commercial, industrial and household ovens and burners.
           </p>

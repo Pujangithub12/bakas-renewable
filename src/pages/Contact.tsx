@@ -3,9 +3,13 @@ import PageHeader from "../components/PageHeader";
 import { CheckIcon, FlameIcon, LeafIcon, TruckIcon } from "../components/icons";
 
 const INFO = [
-  { icon: LeafIcon, label: "Email", value: "info@bakasrenewable.com" },
-  { icon: FlameIcon, label: "Phone", value: "+977 1-4XXXXXX" },
-  { icon: TruckIcon, label: "Office", value: "Trade Tower, Thapathali, Kathmandu, Nepal" },
+  { icon: LeafIcon, label: "Email", value: "bakas.nepal@gmail.com" },
+  { icon: FlameIcon, label: "Phone", value: "   " },
+  {
+    icon: TruckIcon,
+    label: "Office",
+    value: "Trade Tower, Thapathali, Kathmandu, Nepal",
+  },
 ];
 
 export default function Contact() {
@@ -124,7 +128,7 @@ export default function Contact() {
         <div className="mx-auto max-w-6xl px-6 lg:px-10">
           <div className="overflow-hidden rounded-3xl border border-brand-100 shadow-lg shadow-brand-900/5">
             <iframe
-              title="Bakas Renewable Energy office location — Trade Tower, Thapathali, Kathmandu, Nepal"
+              title="Bakas Renewable Energy office location, Trade Tower, Thapathali, Kathmandu, Nepal"
               src="https://www.google.com/maps?q=Trade+Tower,+Thapathali,+Kathmandu,+Nepal&output=embed"
               className="h-[420px] w-full border-0"
               loading="lazy"

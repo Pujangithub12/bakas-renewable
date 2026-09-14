@@ -14,7 +14,7 @@ export default function CallToAction({ buttonLabel = "Get a Quote" }: CallToActi
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-brand-50/80">
           Get a custom quote for your commercial, industrial or household
-          heating needs &mdash; delivered reliably, burned cleanly.
+          heating needs, delivered reliably, burned cleanly.
         </p>
         <Link
           to="/contact"

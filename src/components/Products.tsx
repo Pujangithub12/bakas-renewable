@@ -57,7 +57,7 @@ export default function Products() {
               Fuel Built for Every Burner
             </h2>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-brand-800/75 sm:text-lg">
-              Climate change isn&apos;t coming &mdash; it&apos;s here. Transitioning to
+              Climate change isn&apos;t coming. It&apos;s here. Transitioning to
               sustainable pellet fuel isn&apos;t just a choice, it&apos;s a necessity.
               We believe in powering commercial, industrial and household
               heating responsibly.

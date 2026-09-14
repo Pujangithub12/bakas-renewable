@@ -28,11 +28,11 @@ export default function AboutPreview() {
             A Team of Renewable Energy Professionals
           </h2>
           <p className="mt-5 text-base leading-relaxed text-brand-800/75">
-            Bakas Renewable Energy Pvt. Ltd. (BREPL) brings together a
+            Bakas Renewable Energy Limited (BREL) brings together a
             group of professionals working across Nepal&apos;s renewable
             energy sector. Wood pellet production is the company&apos;s
-            first planned project &mdash; and since this industry has not
-            yet been introduced in Nepal, BREPL will be the first to
+            first planned project, and since this industry has not
+            yet been introduced in Nepal, BREL will be the first to
             establish it in the country.
           </p>
           <p className="mt-4 text-base leading-relaxed text-brand-800/75">

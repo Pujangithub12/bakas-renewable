@@ -45,7 +45,7 @@ export default function Footer() {
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-brand-100/70">
               Producing clean-burning biomass pellets for commercial,
-              industrial and household ovens and burners &mdash; sustainable
+              industrial and household ovens and burners. Sustainable
               heat for a greener tomorrow.
             </p>
             <div className="mt-6 space-y-1 text-sm text-brand-100/70">
@@ -72,8 +72,16 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="mt-14 border-t border-white/10 pt-8 text-center text-sm text-brand-100/60">
+        <div className="mt-14 flex flex-col items-center gap-4 border-t border-white/10 pt-8 text-center text-sm text-brand-100/60 sm:flex-row sm:justify-between">
           <p>&copy; {new Date().getFullYear()} Bakas Renewable Energy Limited. All rights reserved.</p>
+          <div className="flex items-center gap-6">
+            <Link to="/privacy-policy" className="transition hover:text-white">
+              Privacy Policy
+            </Link>
+            <Link to="/terms-of-service" className="transition hover:text-white">
+              Terms of Service
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

@@ -20,7 +20,7 @@ const TEASERS = [
   {
     icon: FactoryIcon,
     title: "Our Process",
-    description: "From raw biomass to delivered fuel — how we produce every pellet.",
+    description: "From raw biomass to delivered fuel: how we produce every pellet.",
     to: "/process",
   },
 ];

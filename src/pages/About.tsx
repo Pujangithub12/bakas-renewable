@@ -41,7 +41,7 @@ export default function About() {
       <PageHeader
         eyebrow="About Bakas"
         title="Powering Industries, Responsibly"
-        description="Bakas Renewable Energy Pvt. Ltd. (BREPL) is pioneering wood pellet production in Nepal — turning forest undergrowth biomass into clean fuel for commercial, industrial and household ovens and burners."
+        description="Bakas Renewable Energy Limited (BREL) is pioneering wood pellet production in Nepal, turning forest undergrowth biomass into clean fuel for commercial, industrial and household ovens and burners."
       />
 
       <section className="bg-white py-20 lg:py-28">
@@ -60,11 +60,11 @@ export default function About() {
               The company has a group of professionals working in the
               renewable energy sector. Production of wood pellet is the
               first planned project of the company. Wood pellet production
-              has not been introduced yet in Nepal, and BREPL will be the
+              has not been introduced yet in Nepal, and BREL will be the
               first to establish this kind of industry in the country.
             </p>
             <p>
-              BREPL has selected undergrowth species of Sagarnath Forestry
+              BREL has selected undergrowth species of Sagarnath Forestry
               Development Project (SFDP). SFDP is a government-managed
               plantation in the central Terai of Nepal covering 13,500
               hectares. The undergrowth on the plantation site is the cause
@@ -72,7 +72,7 @@ export default function About() {
               is spending a huge amount of resources to remove or control
               burn these materials every year. The green biomass to be
               removed from the project site will be 30,000 MT. Using this
-              quantity of biomass, BREPL has developed a proposal to
+              quantity of biomass, BREL has developed a proposal to
               produce biomass pellet around 10,500 MT/year.
             </p>
             <p>
@@ -82,7 +82,7 @@ export default function About() {
               most popular in European countries and the United States.
               The popularity of using pellet as fuel is spreading over the
               world. The fundamental of being popular is the
-              environmentally friendly renewable fuel &mdash; it is made
+              environmentally friendly renewable fuel. It is made
               from renewable resources and helps to reduce greenhouse gas
               emissions.
             </p>

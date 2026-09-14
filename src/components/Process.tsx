@@ -41,7 +41,7 @@ const STEPS = [
     number: "05",
     title: "Baggage of Pellets",
     description:
-      "The pellets are sieved into the required sizes and then packaged using a semi-automatic machine, with package weights varying according to the requirement — 25 kg, 30 kg, 50 kg, and even 1 ton.",
+      "The pellets are sieved into the required sizes and then packaged using a semi-automatic machine, with package weights varying according to the requirement: 25 kg, 30 kg, 50 kg, and even 1 ton.",
     image: bagging,
     alt: "Bakas premium biomass pellet packaging",
   },
@@ -59,7 +59,7 @@ export default function Process() {
             How Does It Work?
           </h2>
           <p className="mt-4 text-base leading-relaxed text-brand-800/75">
-            From forest floor waste to bagged fuel &mdash; here&apos;s how raw
+            From forest floor waste to bagged fuel, here&apos;s how raw
             biomass becomes a premium pellet.
           </p>
         </div>
