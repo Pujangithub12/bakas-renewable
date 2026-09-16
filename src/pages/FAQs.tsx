@@ -42,7 +42,7 @@ const FAQS = [
     a: "Absolutely! BREPL is a pellet manufacturer that actually has an in-house testing lab. To confirm our results, we send our product to a third-party laboratory too. We pride ourselves on providing quality and environmentally friendly products.",
   },
   {
-    q: "Where is BREPL located?",
+    q: "Where is BREL located?",
     a: "BREPL's head office is located in Trade Tower, Thapathali, Kathmandu.",
   },
 ];

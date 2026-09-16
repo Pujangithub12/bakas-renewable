@@ -2,34 +2,34 @@ import PageHeader from "../components/PageHeader";
 import GalleryTile from "../components/GalleryTile";
 import CallToAction from "../components/CallToAction";
 
-import planning from "../assets/images/planning.jpeg";
 import sourcing from "../assets/images/1.jpeg";
-import yard from "../assets/images/2.jpeg";
 import roller from "../assets/images/roller.png";
 import factory from "../assets/images/factory.jpeg";
-import factory2 from "../assets/images/factory2.jpeg";
 import industry from "../assets/images/industry.png";
 import sample from "../assets/images/sample.jpeg";
 import oven from "../assets/images/oven.jpeg";
 import pellets from "../assets/images/pellets.jpeg";
 import biomassPellet from "../assets/images/biomass-pellet.png";
-import packaging from "../assets/images/inf.jpg";
-import community from "../assets/images/community.jpeg";
+import multiMill from "../assets/images/multi-mill.jpeg";
+import pelletMillLine from "../assets/images/pellet-mill-line.jpeg";
+import chippingUnit from "../assets/images/chipping-unit.jpeg";
+import calorimeterTest from "../assets/images/calorimeter-test.jpeg";
+import rawMaterialYard from "../assets/images/raw-material-yard.jpeg";
 
 const PHOTOS = [
-  { src: planning, alt: "Site evaluation with partners", caption: "Site evaluation & planning", tall: true },
   { src: sourcing, alt: "Tractor clearing forest floor biomass", caption: "Biomass sourcing" },
-  { src: community, alt: "Local workers in the plantation", caption: "Empowering local communities" },
-  { src: yard, alt: "Tractors and loaders in the equipment yard", caption: "Fleet & machinery", tall: true },
-  { src: roller, alt: "Pellet press machine", caption: "Pellet press" },
+  { src: roller, alt: "Briquette press machine", caption: "Pellet press" },
   { src: factory, alt: "Bakas production facility exterior", caption: "Our production facility" },
-  { src: factory2, alt: "Inside the pellet production line", caption: "Inside the plant", tall: true },
   { src: industry, alt: "Pellet production line machinery", caption: "Production line" },
   { src: sample, alt: "Biomass samples on a lab bench", caption: "Sample testing" },
-  { src: oven, alt: "Muffle furnace quality testing", caption: "Quality testing", tall: true },
+  { src: oven, alt: "Muffle furnace quality testing", caption: "Quality testing", },
   { src: pellets, alt: "Bulk storage of finished pellets", caption: "Bulk storage" },
   { src: biomassPellet, alt: "Hands holding finished biomass pellets", caption: "Finished pellets" },
-  { src: packaging, alt: "Bakas premium biomass pellet packaging", caption: "Premium pellet packaging", tall: true },
+  { src: multiMill, alt: "Multi-mill grinding machine on the plant floor", caption: "Multi-mill machine grinding",},
+  { src: pelletMillLine, alt: "Pellet mill production line", caption: "Pellet mill line" },
+  { src: chippingUnit, alt: "Biomass chipper unit hitched to a tractor", caption: "Biomass chipping unit" },
+  { src: calorimeterTest, alt: "Digital bomb calorimeter used for calorific value testing", caption: "Value testing",},
+  { src: rawMaterialYard, alt: "Raw material storage yard beside the plant building", caption: "Raw material storage yard" },
 ];
 
 export default function Gallery() {
